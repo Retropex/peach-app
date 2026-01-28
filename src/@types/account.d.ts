@@ -1,3 +1,5 @@
+type BlockExplorer = "mempool.space" | "mempool.guide";
+
 type Settings = {
   seenFirstTimeBuyerPopup: boolean;
   seenFirstTimeSellerPopup: boolean;
@@ -20,6 +22,7 @@ type Settings = {
   showBackupReminder: boolean;
   shouldShowBackupOverlay: boolean;
   nodeURL: string;
+  blockExplorer: BlockExplorer;
   cloudflareChallenge?: {
     cfClearance: string;
     userAgent: string;

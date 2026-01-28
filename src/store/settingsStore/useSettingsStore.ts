@@ -33,6 +33,7 @@ export type SettingsStore = Settings & {
   ) => void;
   setIsLoggedIn: (isLoggedIn: boolean) => void;
   setAppPinCode: (newPinCode?: string) => void;
+  setBlockExplorer: (blockExplorer: BlockExplorer) => void;
 };
 
 const storage = createPersistStorage<SettingsStore>(settingsStorage);
@@ -94,6 +95,7 @@ export const useSettingsStore = create(
       setSeenFirstTimeSellerPopup: () =>
         set({ seenFirstTimeSellerPopup: true }),
       setAppPinCode: (newPinCode) => set({ appPinCode: newPinCode }),
+      setBlockExplorer: (blockExplorer) => set({ blockExplorer }),
     }),
     {
       name: "settings",

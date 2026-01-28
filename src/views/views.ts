@@ -52,6 +52,7 @@ import { AboutPeach } from "./settings/aboutPeach/AboutPeach";
 import { BitcoinProducts } from "./settings/aboutPeach/BitcoinProducts";
 import { PeachFees } from "./settings/aboutPeach/PeachFees";
 import { Socials } from "./settings/aboutPeach/Socials";
+import { BlockExplorer } from "./settings/blockExplorer/BlockExplorer";
 import { NetworkFees } from "./settings/networkFees/NetworkFees";
 import { MyProfile } from "./settings/profile/MyProfile";
 import { UserBitcoinLevel } from "./userBitcoinLevel/UserBitcoinLevel";
@@ -173,6 +174,7 @@ const settings: ViewType[] = [
   { name: "paymentMethods", component: PaymentMethods },
   { name: "peachFees", component: PeachFees },
   { name: "networkFees", component: NetworkFees },
+  { name: "blockExplorer", component: BlockExplorer },
   { name: "transactionBatching", component: TransactionBatching },
   { name: "socials", component: Socials },
 ];

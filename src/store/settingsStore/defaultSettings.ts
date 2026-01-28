@@ -17,6 +17,7 @@ export const defaultSettings: Settings = {
   displayCurrency: "EUR",
 
   nodeURL: BLOCKEXPLORER,
+  blockExplorer: "mempool.space",
 
   refundAddress: undefined,
   refundAddressLabel: undefined,

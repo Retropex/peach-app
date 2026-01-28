@@ -177,6 +177,7 @@ type RootStackParamList = Onboarding &
     deleteAccount: undefined;
     peachFees: undefined;
     networkFees: undefined;
+    blockExplorer: undefined;
     aboutPeach: undefined;
     bitcoinProducts: undefined;
     socials: undefined;

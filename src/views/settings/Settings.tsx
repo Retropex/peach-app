@@ -110,6 +110,7 @@ export const Settings = () => {
           warning: !!showBackupReminder,
         },
         "networkFees",
+        "blockExplorer",
         "transactionBatching",
         "paymentMethods",
       ] as const,
